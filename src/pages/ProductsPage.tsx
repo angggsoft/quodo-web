@@ -8,8 +8,8 @@ function ProductsPage() {
   return (
     <>
       {/* --- SECCIÓN PRINCIPAL --- */}
-      {/* 🛑 CAMBIO AQUÍ: Agregamos 'min-h-screen' para que ocupe al menos toda la altura de la pantalla */}
-      <div className="container mx-auto px-4 py-16 max-w-7xl min-h-screen">
+      {/* 🛑 CAMBIO: Agregamos 'flex flex-col justify-center' para centrar todo verticalmente */}
+      <div className="container mx-auto px-4 py-16 max-w-7xl min-h-screen flex flex-col justify-center">
 
         <h2 className="text-5xl font-bold text-gray-800 mb-12 text-left">
           Nuestras soluciones
@@ -22,7 +22,7 @@ function ProductsPage() {
             <img 
               src={LogoParking} 
               alt="Quodo Parking" 
-              className="h-48 mb-6 self-center" 
+              className="h-48 mb-6 self-center object-contain" 
             />
             
             <p className="text-gray-600 mb-6 text-left">
@@ -42,14 +42,13 @@ function ProductsPage() {
             <img 
               src={LogoCloud} 
               alt="Quodo POS" 
-              className="h-48 mb-6 self-center"
+              className="h-48 mb-6 self-center object-contain"
             />
             
             <p className="text-gray-600 mb-6 text-left">
               Punto de Venta ágil para cafeterías y tiendas. Cobra rápido, gestiona inventarios, productos y tickets de venta. Funciona en tu computadora y se sincroniza con la nube automáticamente.
             </p>
             
-            {/* Lleva a la nueva página de POS */}
             <Link 
               to="/productos/pos" 
               className="text-xl font-bold text-sky-500 hover:text-sky-600 text-center mt-auto"
