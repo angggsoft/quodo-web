@@ -12,7 +12,7 @@ import QuodoLogoBlue from '../assets/logo-cloud.png';
 import LogoWhite from '../assets/logo-white.png'; 
 import cityImageUrl from '../assets/manhattan-skyline.jpg';
 import Logo from '../assets/logo.png'; 
-import LabelLogo from '../assets/label2c.png';
+import LabelLogo from '../assets/label2.png';
 
 // IMPORTAMOS TUS COMPONENTES (Para que funcionen la Lupa y el Carrito)
 import SearchModal from '../components/SearchModal';

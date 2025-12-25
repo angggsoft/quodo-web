@@ -1,5 +1,3 @@
-// src/pages/ProductsPage.tsx
-
 import { Link } from 'react-router-dom';
 
 // Imágenes
@@ -10,7 +8,8 @@ function ProductsPage() {
   return (
     <>
       {/* --- SECCIÓN PRINCIPAL --- */}
-      <div className="container mx-auto px-4 py-16 max-w-7xl">
+      {/* 🛑 CAMBIO AQUÍ: Agregamos 'min-h-screen' para que ocupe al menos toda la altura de la pantalla */}
+      <div className="container mx-auto px-4 py-16 max-w-7xl min-h-screen">
 
         <h2 className="text-5xl font-bold text-gray-800 mb-12 text-left">
           Nuestras soluciones
