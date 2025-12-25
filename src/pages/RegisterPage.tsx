@@ -7,9 +7,10 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 // 2. IMÁGENES Y LOGOS
 import QuodoLogoBlue from '../assets/logo-cloud.png'; 
-import Logo from '../assets/logo.png'; 
 import LogoWhite from '../assets/logo-white.png'; 
-import cityImageUrl from '../assets/manhattan-skyline.jpg'; 
+import cityImageUrl from '../assets/manhattan-skyline.jpg';
+import Logo from '../assets/logo.png'; 
+import LabelLogo from '../assets/label2c.png';
 
 const RegisterPage: React.FC = () => {
 // --- ESTADO Y LÓGICA (Tu código original) ---
@@ -114,9 +115,13 @@ style={{ backgroundImage: `url(${cityImageUrl})` }}
  <nav className="bg-transparent text-white p-4 absolute top-0 left-0 right-0 z-50">
  <div className="container mx-auto flex justify-between items-center">
 
+ {/* LOGO + LABEL */}
  <Link to="/" className="flex items-center space-x-2">
- <img src={Logo} alt="Quodo Logo" className="h-8" />
- <span className="text-3xl font-bold text-white lowercase">quodo</span>
+ {/* 1. Logo del Elefante (logo.png) */}
+ <img src={Logo} alt="Quodo Icon" className="h-10 drop-shadow-md" />
+    
+ {/* 2. Texto Quodo en imagen (label2.png - Blanco para fondo oscuro) */}
+ <img src={LabelLogo} alt="Quodo Label" className="h-8 md:h-9 drop-shadow-md object-contain" />
  </Link>
 
  <div className="hidden md:flex space-x-6">
