@@ -11,7 +11,8 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 import QuodoLogoBlue from '../assets/logo-cloud.png'; 
 import LogoWhite from '../assets/logo-white.png'; 
 import cityImageUrl from '../assets/manhattan-skyline.jpg';
-import LabelLogo from '../assets/label2c.png'; 
+import Logo from '../assets/logo.png'; 
+import LabelLogo from '../assets/label2c.png';
 
 // IMPORTAMOS TUS COMPONENTES (Para que funcionen la Lupa y el Carrito)
 import SearchModal from '../components/SearchModal';
@@ -87,10 +88,13 @@ function LoginPage() {
             <nav className="bg-transparent text-white p-4 absolute top-0 left-0 right-0 z-50">
                 <div className="container mx-auto flex justify-between items-center">
                     
-                    {/* LOGO */}
-		    <Link to="/" className="flex items-center">
-    			{/* Usamos LabelLogo y quitamos el texto. Aumentamos a h-10 para que destaque más */}
-    			<img src={LabelLogo} alt="Quodo Logo" className="h-10" />
+		    {/* LOGO + LABEL */}
+		    <Link to="/" className="flex items-center space-x-2">
+    			{/* 1. Logo del Elefante (logo.png) */}
+    			<img src={Logo} alt="Quodo Icon" className="h-10 drop-shadow-md" />
+    
+    			{/* 2. Texto Quodo en imagen (label2.png - Blanco para fondo oscuro) */}
+    			<img src={LabelLogo} alt="Quodo Label" className="h-8 md:h-9 drop-shadow-md object-contain" />
 		    </Link>
 
                     {/* ENLACES CENTRALES (Corregidos para navegar bien) */}
