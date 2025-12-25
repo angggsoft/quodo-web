@@ -8,17 +8,23 @@ function ProductsPage() {
   return (
     <>
       {/* --- SECCIÓN PRINCIPAL --- */}
-      {/* 🛑 CAMBIO: Agregamos 'flex flex-col justify-center' para centrar todo verticalmente */}
-      <div className="container mx-auto px-4 py-16 max-w-7xl min-h-screen flex flex-col justify-center">
+      {/* 1. min-h-screen: Altura completa
+          2. flex flex-col: Estructura vertical
+          Nota: NO usamos justify-center aquí para que el título se quede arriba */}
+      <div className="container mx-auto px-4 py-16 max-w-7xl min-h-screen flex flex-col">
 
         <h2 className="text-5xl font-bold text-gray-800 mb-12 text-left">
           Nuestras soluciones
         </h2>
 
-        <div className="flex flex-col md:flex-row justify-center gap-8">
+        {/* --- CONTENEDOR DE TARJETAS --- */}
+        {/* 1. flex-grow: Ocupa todo el espacio disponible debajo del título
+            2. items-center: Centra las tarjetas verticalmente (en modo fila/escritorio)
+            3. justify-center: Centra las tarjetas horizontalmente */}
+        <div className="flex-grow flex flex-col md:flex-row justify-center items-center gap-8">
 
           {/* Tarjeta 1: Quodo Parking */}
-          <div className="flex flex-col flex-1 p-8 bg-white rounded-3xl shadow-lg border border-gray-100 transition hover:shadow-xl">
+          <div className="flex flex-col flex-1 p-8 bg-white rounded-3xl shadow-lg border border-gray-100 transition hover:shadow-xl w-full">
             <img 
               src={LogoParking} 
               alt="Quodo Parking" 
@@ -38,7 +44,7 @@ function ProductsPage() {
           </div>
 
           {/* Tarjeta 2: Quodo POS */}
-          <div className="flex flex-col flex-1 p-8 bg-white rounded-3xl shadow-lg border border-gray-100 transition hover:shadow-xl">
+          <div className="flex flex-col flex-1 p-8 bg-white rounded-3xl shadow-lg border border-gray-100 transition hover:shadow-xl w-full">
             <img 
               src={LogoCloud} 
               alt="Quodo POS" 

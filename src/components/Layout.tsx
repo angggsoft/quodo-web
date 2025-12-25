@@ -6,7 +6,6 @@ import { ShoppingCartIcon, MagnifyingGlassIcon, UserCircleIcon } from '@heroicon
 import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 // 2. LOGOS
-// Importamos tanto el Logo (icono) como el Label (texto/nombre en imagen)
 import Logo from '../assets/logo.png'; 
 import Label from '../assets/label.png'; 
 import LogoWhite from '../assets/logo-white.png'; 
@@ -33,10 +32,10 @@ const Layout: React.FC = () => {
             
             {/* 1. IZQUIERDA: LOGO + LABEL */}
             <Link to="/" onClick={() => window.scrollTo(0, 0)} className="flex items-center space-x-2 z-10">
-                {/* Logo (Icono) */}
-                <img src={Logo} alt="Quodo Icon" className="h-8" />
-                {/* Label (Texto 'quodo' en imagen) */}
-                <img src={Label} alt="Quodo Label" className="h-8 object-contain" />
+                {/* 🛑 CAMBIO AQUÍ: Aumentamos a h-10 para igualar al Login */}
+                <img src={Logo} alt="Quodo Icon" className="h-10" />
+                {/* 🛑 CAMBIO AQUÍ: Aumentamos a h-9 (en desktop) para proporción correcta */}
+                <img src={Label} alt="Quodo Label" className="h-8 md:h-9 object-contain" />
             </Link>
 
             {/* 2. CENTRO: MENÚ (Posicionado absolutamente al centro) */}
