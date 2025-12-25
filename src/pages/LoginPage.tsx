@@ -9,7 +9,6 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 // IMÁGENES
 import QuodoLogoBlue from '../assets/logo-cloud.png'; 
-import Logo from '../assets/logo.png'; 
 import LogoWhite from '../assets/logo-white.png'; 
 import cityImageUrl from '../assets/manhattan-skyline.jpg';
 import LabelLogo from '../assets/label2c.png'; 
