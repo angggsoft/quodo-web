@@ -90,7 +90,7 @@ const HomePage: React.FC = () => {
           
           <div className="flex flex-col flex-1 p-8 bg-white rounded-3xl shadow-lg border border-gray-100">
             <img src={LogoParking} className="h-48 mb-6 self-center object-contain" />
-            <p className="text-gray-600 mb-6 text-left flex-grow">Software de escritorio completo para administrar tu estacionamiento Gestiona bletos ,pensiones,tarifas flexible,control de caja y reportes detallados.Optimiza tu operacion y mejora el control. </p>
+            <p className="text-gray-600 mb-6 text-left flex-grow">Software de escritorio completo para administrar tu estacionamiento Gestiona tickets, pensiones, tarifas flexibles o especiales, convenios, control de caja y reportes detallados. Optimiza tu operacion y mejora el control. </p>
             <Link to="/productos/parking" className="text-xl font-bold text-sky-500 hover:text-sky-600 text-center mt-auto">Ver más</Link>
           </div>
           
