@@ -39,9 +39,9 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           <div className="w-full md:w-1/2 bg-sky-500 text-white p-8 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-4">Gestiona tu Punto de Venta o Estacionamiento en un solo lugar</h2>
+            <h2 className="text-4xl font-bold mb-4">Gestiona tus negocios en un solo lugar</h2>
             <p className="text-lg mb-6">Sincronización en tiempo real entre tus puntos de venta y la nube.</p>
-            <ul className="list-disc list-inside space-y-2 text-lg">
+            <ul className="list-disc list-inside space-y-1 text-lg">
               <li>Agiliza tus movimientos.</li>
               <li>Reduce tiempos de operación.</li>
               <li>Optimiza tus empleados y protege tus ingresos.</li>
