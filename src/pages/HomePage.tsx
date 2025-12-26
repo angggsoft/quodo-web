@@ -39,10 +39,10 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           <div className="w-full md:w-1/2 bg-sky-500 text-white p-8 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-4">Sin filas y sin errores.</h2>
-            <p className="text-lg mb-6">La solución para los estacionamientos modernos.</p>
+            <h2 className="text-4xl font-bold mb-4">Gestiona tu Punto de Venta o Estacionamiento en un solo lugar</h2>
+            <p className="text-lg mb-6">Sincronización en tiempo real entre tus puntos de venta y la nube.</p>
             <ul className="list-disc list-inside space-y-2 text-lg">
-              <li>Agiliza el acceso y la salida.</li>
+              <li>Agiliza tus movimientos.</li>
               <li>Reduce tiempos de operación.</li>
               <li>Optimiza tus empleados y protege tus ingresos.</li>
             </ul>
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
         <div className="bg-sky-500 text-white p-8 md:p-12 my-16 rounded-3xl shadow-lg text-center">
             <h3 className="text-4xl font-bold lowercase mb-4">quodo<sup className="text-lg">®</sup></h3>
             <h2 className="text-3xl font-bold mb-4">Obtén el control total de tu negocio para operar de forma inteligente</h2>
-            <p className="text-lg max-w-4xl mx-auto mb-6">Somos la solución tecnológica que está transformando la gestión de estacionamientos en el mundo, integrando la automatización y la inteligencia de datos para hacer tu operación más ágil, segura y rentable.
+            <p className="text-lg max-w-4xl mx-auto mb-6">Somos la solución tecnológica que está transformando la gestión de estacionamientos y puntos de venta en el mundo, integrando la automatización y la inteligencia de datos para hacer tu operación más ágil, segura y rentable.
               Unete a esta gran revolucion digital y olvidate de los cobros imrpecisos y la getion manual
             </p>
             <Link to="/cloud" className="bg-white text-sky-500 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition">Ver Quodo Cloud</Link>
