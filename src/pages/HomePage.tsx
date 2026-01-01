@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
       src={DrawLogo} 
       alt="Quodo" 
       // Usamos clases de tamaño similares a las del logo de arriba para mantener consistencia
-      className="w-150 md:w-96 select-none object-contain" 
+      className="w-64 md:w-150 select-none object-contain" 
   />
 </div>
         </div>
