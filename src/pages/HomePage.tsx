@@ -10,6 +10,7 @@ import LogoParking from '../assets/logo-parking.png';
 import LogoCloud from '../assets/pos.png';
 import LabelLogo from '../assets/label2.png';
 import BlueLogo from '../assets/label.png'; 
+import DrawLogo from '../assets/quodo draw.png'; 
 import DashboardImg from '../assets/cloud-dashboard.jpg';
 import Cloud1 from '../assets/quodocloud.png';
 
