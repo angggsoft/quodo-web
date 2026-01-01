@@ -9,7 +9,7 @@ import IconSeguridad from '../assets/icon-seguridad.png';
 import LogoParking from '../assets/logo-parking.png';
 import LogoCloud from '../assets/pos.png';
 import LabelLogo from '../assets/label2.png';
-//import BlueLogo from '../assets/label.png'; 
+import BlueLogo from '../assets/label.png'; 
 import DrawLogo from '../assets/quodo draw.png'; 
 import DashboardImg from '../assets/cloud-dashboard.jpg';
 import Cloud1 from '../assets/quodocloud.png';
@@ -51,10 +51,10 @@ const HomePage: React.FC = () => {
           <div className="w-full md:w-1/2 flex justify-center items-center">
   {/* REEMPLAZO POR LA IMAGEN AZUL: */}
   <img 
-      src={DrawLogo} 
+      src={BlueLogo} 
       alt="Quodo" 
       // Usamos clases de tamaño similares a las del logo de arriba para mantener consistencia
-      className="w-64 md:w-100 select-none object-contain" 
+      className="w-64 md:w-96 select-none object-contain" 
   />
 </div>
         </div>
