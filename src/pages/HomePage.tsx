@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
           <div className="w-full md:w-1/2 flex justify-center items-center">
   {/* REEMPLAZO POR LA IMAGEN AZUL: */}
   <img 
-      src={BlueLogo} 
+      src={DrawLogo} 
       alt="Quodo" 
       // Usamos clases de tamaño similares a las del logo de arriba para mantener consistencia
       className="w-64 md:w-96 select-none object-contain" 
